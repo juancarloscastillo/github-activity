@@ -43,7 +43,7 @@ output:
 
 ```
 
-You can see an example in the demo-Rmarkdown folder in this repo, the result looks like [this.](https://htmlpreview.github.io/?https://github.com/juancarloscastillo/github-activity/blob/master/demo-Rmarkdown/demo.html)
+You can see an example in the demo-Rmarkdown folder in this repo, the result looks like [this.](https://juancarloscastillo.github.io/jc-castillo/documents/github-activity/demo.html)
 
 
 3. In the body of your html (or in your Rmarkdown file) add the following where you want the plugin:
