@@ -7,7 +7,7 @@ An example of how it looks like is [here](https://juancarloscastillo.github.io/j
 
 To add it to your webpage:
 
-1. Just copy and paste this to the head of your html file, and just replace the username and repository you want to show:
+1. Just copy and paste this to the head of your html file. Replace below the username and repository you want to show:
 
 ```html
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
@@ -15,7 +15,7 @@ To add it to your webpage:
 
 <script src="//code.jquery.com/jquery-1.11.0.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-<script type="text/javascript" src="hhttps://raw.githubusercontent.com/juancarloscastillo/github-activity/master/github-activity-0.1.5.min.js"></script>
+<script type="text/javascript" src="https://raw.githubusercontent.com/juancarloscastillo/github-activity/master/github-activity-0.1.5.min.js"></script>
 
 <script>
 GitHubActivity.feed({
@@ -28,7 +28,7 @@ GitHubActivity.feed({
 
 ```
 
-... **or**, if you are working with Rmarkdown, download [this html file](), replace the username and repository, and include it in the YAML header:
+... **or**, if you are working with Rmarkdown, download [this html file](https://raw.githubusercontent.com/juancarloscastillo/github-activity/master/demo-Rmarkdown/head_github-activity.html), replace the username and repository, and include it in the YAML header:
 
 ```
 ---
@@ -40,7 +40,6 @@ output:
 ---
 
 ```
-
 
 
 2. In the body of your html (or in your Rmarkdown file) add the following where you want the plugin:
